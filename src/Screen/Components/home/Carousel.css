@@ -1,0 +1,19 @@
+@keyframes scroll {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(-50%);
+    }
+  }
+  
+  .carousel-container {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+  }
+  
+  .carousel-track {
+    display: flex;
+    width: 120%; /* Double the width to accommodate the duplicated items */
+  }
